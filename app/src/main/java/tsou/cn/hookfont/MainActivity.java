@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
-//        View view = FontUtils.createAssetsView(parent, name, context, attrs,"fonts/yuwei.ttf");
-        View view = FontUtils.createPathView(parent, name, context, attrs,path);
+        View view = FontUtils.createAssetsView(parent, name, context, attrs,"fonts/yuwei.ttf");
+//        View view = FontUtils.createPathView(parent, name, context, attrs,path);
         if (view != null) {
             return view;
         }
